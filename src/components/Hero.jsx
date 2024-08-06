@@ -19,7 +19,7 @@ const Hero = () => {
     useEffect(() => {
         window.addEventListener('resize', handleVideoSrcSet)
         return () => {
-            window.removeEventListener('resize', handleVideoSrcSet)
+        window.removeEventListener('resize', handleVideoSrcSet)
         }
     })
 
